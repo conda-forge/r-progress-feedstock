@@ -1,4 +1,4 @@
-{% set version = '1.1.2' %}
+{% set version = "1.2.0" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,7 +12,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/progress_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/progress/progress_{{ version }}.tar.gz
-  sha256: a9f4abfd9579b80967cd681041643fe9dfcc4eb3beeba45391bb64e9209baabb
+  sha256: 5bb9044d1376cf45e8231c94707ccb7f50996f37c52e40771e1f0cde16a81ce6
 
 build:
   number: 0
@@ -27,11 +27,14 @@ requirements:
     - r-base
     - r-r6
     - r-prettyunits
-
+    - r-hms
+    - r-crayon
   run:
     - r-base
     - r-r6
     - r-prettyunits
+    - r-hms
+    - r-crayon
 
 test:
   commands:
