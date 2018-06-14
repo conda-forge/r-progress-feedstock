@@ -27,11 +27,14 @@ requirements:
     - r-base
     - r-r6
     - r-prettyunits
-
+    - r-hms
+    - r-crayon
   run:
     - r-base
     - r-r6
     - r-prettyunits
+    - r-hms
+    - r-crayon
 
 test:
   commands:
