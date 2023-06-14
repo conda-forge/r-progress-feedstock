@@ -1,11 +1,11 @@
-About r-progress
-================
+About r-progress-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-progress-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/r-lib/progress#readme
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-progress-feedstock/blob/main/LICENSE.txt)
 
 Summary: Configurable Progress bars, they may include percentage, elapsed time, and/or the estimated completion time. They work in terminals, in 'Emacs' 'ESS', 'RStudio', 'Windows' 'Rgui' and the 'macOS' 'R.app'. The package also provides a 'C++' 'API', that works with or without 'Rcpp'.
 
