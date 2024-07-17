@@ -1,6 +1,5 @@
 {% set version = "1.2.3" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-progress
@@ -13,8 +12,7 @@ source:
   sha256: ea2b079b894de85c3ab12088c9c52aec06432245047a961d5b4b8aa6889f9276
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
